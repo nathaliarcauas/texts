@@ -15,5 +15,13 @@ If you don't have any cards that can be played you are forced to pass
 your move, which lowers your chances of winning. 
 
 Chef's hat has a game simulator in which some information is displayed 
-as a move happens. 
+as a move happens. The informations include: "Time", a time stamp of when 
+everything happens. Game number and round Number which are exactly as they say.
+"Player" which identifies the player. "Action Type" identifies what the player did.
+"Player Hand" identifies the cards still in the player's hand. 
+"Board" identifies the cards displayed on the game board.
+"Players Status" identifies the other players actions. 
+"PizzaReady" identifies if the action finished the pizza.
+
+
 
