@@ -1,23 +1,36 @@
 Chef's Hat is a card game where your goal
- is to discard all cards before the other players do.
-The cards have values from 1 to 11. There is one card of
- value 1, two cards of value 2, and so on up to 11.
-In other words, lower cards are rarer and higher cards are more common. 
-They are randomly distributed among the four players. 
-Each Player can only discard cards of a single value per move. 
-In order to discard them, the cards must be of lower value than the cards
-that are currently on the board and in the same or greater quantity. 
-For instance, if the board has Q cards of value C, you must play at
+is to discard all cards before the other players do.
+The cards have values from 1 to 11. 
+There is one card of
+value 1, two cards of value 2, and so on up to 11.
+In other words, lower cards are rarer 
+and higher cards are more common. 
+They are randomly distributed 
+among the four players. 
+Each Player can only discard 
+cards of a single value per move. 
+In order to discard them, the 
+cards must be of lower value than the cards
+that are currently on the 
+board and in the same or greater quantity. 
+For instance, if the board has 
+Q cards of value C, you must play at
 least Q cards of at least value C-1. 
-If you don't have an specific card but have 1 or 2 Jokers you can use
+If you don't have an specific card
+but have 1 or 2 Jokers you can use
 them as a wildcard that replaces them. 
-If you don't have any cards that can be played you are forced to pass
-your move, which lowers your chances of winning. 
+If you don't have any cards that
+can be played you are forced to pass
+your move, which lowers
+your chances of winning. 
 
 Chef's hat has a game simulator in which some information is displayed 
-as a move happens. The informations include: "Time", a time stamp of when 
-everything happens. Game number and round Number which are exactly as they say.
-"Player" which identifies the player. "Action Type" identifies what the player did.
+as a move happens. 
+The informations include: "Time", a time stamp of when 
+everything happens. 
+Game number and round Number which are exactly as they say.
+"Player" which identifies the player. 
+"Action Type" identifies what the player did.
 "Player Hand" identifies the cards still in the player's hand. 
 "Board" identifies the cards displayed on the game board.
 "Players Status" identifies the other players actions. 
