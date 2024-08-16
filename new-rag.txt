@@ -5,11 +5,15 @@ The cards have values from 1 to 11. There is one card of
 In other words, lower cards are rarer and higher cards are more common. 
 They are randomly distributed among the four players. 
 Each Player can only discard cards of a single value per move. 
-In order to discard them, the cards must be of lower value than the cards that are currently on the board and in the same or greater quantity. 
+In order to discard them, the cards must be of lower value than the cards
+that are currently on the board and in the same or greater quantity. 
 For instance, if the board has Q cards of value C, you must play at
- least Q cards of at least value C-1. 
+least Q cards of at least value C-1. 
 If you don't have an specific card but have 1 or 2 Jokers you can use
 them as a wildcard that replaces them. 
 If you don't have any cards that can be played you are forced to pass
 your move, which lowers your chances of winning. 
+
+Chef's hat has a game simulator in which some information is displayed 
+as a move happens. 
 
