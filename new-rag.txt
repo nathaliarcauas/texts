@@ -5,7 +5,8 @@ The cards have values from 1 to 11. There is one card of
 In other words, lower cards are rarer and higher cards are more common. 
 They are randomly distributed among the four players. 
 Each Player can only discard cards of a single value per move. 
-In order to discard them, the cards must be of lower value than the cards that are currently on the board and in the same or greater quantity. 
+In order to discard them, the cards must be of lower value than
+the cards that are currently on the board and in the same or greater quantity. 
 For instance, if the board has Q cards of value C, you must play at
  least Q cards of at least value C-1. 
 If you don't have an specific card but have 1 or 2 Jokers you can use
@@ -13,3 +14,13 @@ them as a wildcard that replaces them.
 If you don't have any cards that can be played you are forced to pass
 your move, which lowers your chances of winning. 
 
+There are 3 important metrics: attack, defense and vitality.
+Attack represents how many players passed after your turn.
+Vitality represents the player’s resilience in avoiding forced
+passes (situations where the player cannot make a legal move and must pass).
+The metric considers how consistently a player has been able to play during
+the game, rather than being forced to pass.
+Defense represents how well the player managed to avoid being immediately
+countered by the next player. If a player’s move successfully prevents the
+next player from making a legal move (forcing them to pass), it is considered
+a successful defense.
